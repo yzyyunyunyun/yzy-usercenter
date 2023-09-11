@@ -1,0 +1,15 @@
+# 线上配置文件
+# @author
+# @from
+spring:
+  # DataSource Config
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: 'jdbc:mysql://117.72.11.62:3306/yzycode?userSSL=true&useUnicode=true&characterEncoding=UTF8&serverTimezone=GMT'
+    username: yzycode
+    password: yzyxueba
+  # session 失效时间
+  session:
+    timeout: 86400
+server:
+  address: 0.0.0.0
